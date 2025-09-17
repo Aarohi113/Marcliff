@@ -885,7 +885,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-4{
-    height: 180vh;
+    height: 190vh;
   }
   .page-4 h1 {
     font-size: 36px;
@@ -905,7 +905,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-5{
-    height: 140vh;
+    height: 170vh;
   }
   .page-5 h1 {
     font-size: 32px;
@@ -923,7 +923,7 @@ hr {
 
   .section img {
     height: 320px;
-    width: 338px;
+    width: 310px;
   }
 
   .section p {
