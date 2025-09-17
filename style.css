@@ -885,7 +885,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-4{
-    height: 160vh;
+    height: 180vh;
   }
   .page-4 h1 {
     font-size: 36px;
@@ -931,6 +931,9 @@ hr {
   }
 }
 @media (max-width: 768px) {
+  .timeline-section{
+    height: 160vh;
+  }
   .timeline {
     flex-direction: column;
     align-items: flex-start;
