@@ -65,13 +65,18 @@ html {
   color: #1a6d80;
 }
 
+
 .logo img {
   width: 90px;
   height: 90px;
+  margin-block-end: -18px;
 }
-.logo{
-font-size: 16px;
+.logo p{
+  font-size: 1rem;
   font-style: normal;
+  color: white;
+  margin-left: 9%;
+  margin-block-start: 0;
 }
 
 .content p {
