@@ -69,13 +69,13 @@ html {
 .logo img {
   width: 90px;
   height: 90px;
-  margin-block-end: -10px;
+  margin-block-end: -8px;
 }
 .logo p{
   font-size: 1rem;
   font-style: normal;
   color: white;
-  margin-left: 9%;
+  margin-left: 5%;
   margin-block-start: 0;
 }
 
