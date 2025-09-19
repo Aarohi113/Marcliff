@@ -657,11 +657,11 @@ hr {
     
   }
   .bg-video{
-    height: 90vh;
+    height: 100vh;
   }
   .content {
    
-    margin-top: 30%;
+    margin-top: 20%;
     /* font-size: 80px; */
   }
 
@@ -673,7 +673,7 @@ hr {
 
   .content p {
     font-weight: 700;
-     margin-top: 49%;
+     margin-top: 29%;
     font-size: 2rem;
     margin-right: auto;
     margin-left:auto;
@@ -833,7 +833,7 @@ hr {
 
   .section img {
     height: 320px;
-    width: 90%;
+    width: 325px;
   }
 
   .section p {
