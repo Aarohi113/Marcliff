@@ -648,29 +648,7 @@ hr {
     display: flex; 
   }
 }
-/* @media (max-width: 768px) {
-  .content {
-    margin-top: 40%; 
-    font-size: 1.4rem;
-    padding: 0 15px;
-  }
 
-  .content h1 {
-    font-size: 1.8rem; 
-  }
-
-  .content p {
-    font-size: 1rem;
-    max-width: 100%; 
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .content button {
-    font-size: 14px;
-    padding: 10px 18px;
-  }
-} */
 
 
 @media (max-width: 768px) {
@@ -748,90 +726,7 @@ hr {
     font-size: 13px;
   }
 }
-/* .page-2 {
-  height: 90vh;
-  background: #084452;
-  color: white;
-  display: flex;
-  font-family: "Raleway", sans-serif;
-  padding-top: 10%;
-}
 
-.left-sec {
-  margin-left: 8%;
-  width: 25%;
-  height: 50%;
-}
-
-.left-sec h1 {
-  font-size: 65px;
-  margin-block-end: 2px;
-}
-
-.right-sec {
-  display: flex;
-  gap: 40px;
-  flex: 1;
-  justify-content: flex-end;
-  margin-right: 5%;
-  height: 60vh;
-}
-
-.card {
-  position: relative;
-  width: 300px;
-  height: 400px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.5s ease;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  width: 70%;
-  background: #012932;
-  color: white;
-  padding: 10px;
-  transition: all 0.4s ease;
-  transform: translateY(40%);
-  height: auto;
-}
-
-.overlay h2 {
-  font-size: 24px;
-  margin: 0 0 10px 0;
-  padding-top: 10%;
-  padding-bottom: 35%;
-}
-
-.overlay p.details {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-  display: none;
-}
-
-.card:hover .card-img {
-  transform: scale(1.1);
-}
-
-.card:hover .overlay {
-  transform: translateY(0%);
-  height: auto;
-}
-
-.card:hover .overlay p.details {
-  display: block;
-}
- */
 /* ---------------- Responsive ---------------- */
 @media (max-width: 768px) {
   .page-2 {
@@ -898,7 +793,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-4{
-    height: 180vh;
+    height: 190vh;
   }
   .page-4 h1 {
     font-size: 36px;
@@ -938,7 +833,7 @@ hr {
 
   .section img {
     height: 320px;
-    width: 330px;
+    width: 300px;
   }
 
   .section p {
