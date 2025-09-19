@@ -833,10 +833,10 @@ hr {
 }
 
 /* ---------------- Responsive ---------------- */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .page-2 {
-    flex-direction: column; /* stack content */
-    height: auto; /* allow expand */
+    flex-direction: column; 
+    height: auto; 
     padding: 50px 20px;
   }
 
@@ -871,7 +871,7 @@ hr {
   }
 
   .overlay {
-    width: 100%; /* full width on mobile */
+    width: 100%; 
   }
 
   .overlay h2 {
@@ -895,7 +895,7 @@ hr {
 .card:hover .overlay p.details {
   display: block;
 }
-}
+} */
 @media (max-width: 768px) {
   .page-4{
     height: 180vh;
