@@ -697,7 +697,8 @@ hr {
     font-weight: 700;
      margin-top: 49%;
     font-size: 2rem;
-    margin-right: 5%;
+    margin-right: auto;
+    margin-left:auto;
     color: black;
   }
 
@@ -937,7 +938,7 @@ hr {
 
   .section img {
     height: 320px;
-    width: 348px;
+    width: 330px;
   }
 
   .section p {
