@@ -793,7 +793,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-4{
-    height: 190vh;
+    height: 200vh;
   }
   .page-4 h1 {
     font-size: 36px;
@@ -815,7 +815,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-5{
-    height: 170vh;
+    height: 190vh;
   }
   .page-5 h1 {
     font-size: 32px;
