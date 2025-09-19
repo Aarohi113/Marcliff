@@ -675,15 +675,15 @@ hr {
 
 @media (max-width: 768px) {
   .page-1{
-    height: 77vh;
+    height: 90vh;
     
   }
   .bg-video{
-    height: 100vh;
+    height: 90vh;
   }
   .content {
    
-    margin-top: 40%;
+    margin-top: 30%;
     /* font-size: 80px; */
   }
 
@@ -697,6 +697,7 @@ hr {
     font-weight: 700;
      margin-top: 49%;
     font-size: 2rem;
+    margin-right: 5%;
     color: black;
   }
 
