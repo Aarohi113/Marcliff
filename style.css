@@ -65,17 +65,16 @@ html {
   color: #1a6d80;
 }
 
-
 .logo img {
-  width: 70px;
-  height: 70px;
-  margin-block-end: -8px;
+  width: 90px;
+  height: 90px;
+  margin-block-end: -18px;
 }
 .logo p{
   font-size: 1rem;
   font-style: normal;
   color: white;
-  margin-left: 5%;
+  margin-left: 9%;
   margin-block-start: 0;
 }
 
@@ -110,15 +109,10 @@ html {
 /* Page 2 */
 .page-2 {
   height: 90vh;
-  /* Full screen */
   background: #084452;
-  /* dark bg for contrast */
   color: white;
   display: flex;
   font-family: "Raleway", sans-serif;
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   padding-top: 10%;
 
 
@@ -460,9 +454,6 @@ hr {
   line-height: 1.5;
 }
 
-
-
-
  .contact-footer {
   background: linear-gradient(135deg, #084452, #062e36);
   color: #fff;
@@ -621,7 +612,7 @@ hr {
 /* responsive */
 @media (max-width: 768px) {
   .navbar {
-    justify-content: space-between; /* logo left, hamburger right */
+    justify-content: space-between; 
   }
 
   .logo {
@@ -654,23 +645,23 @@ hr {
   }
 
   .nav-links.active {
-    display: flex; /* show when active */
+    display: flex; 
   }
 }
 @media (max-width: 768px) {
   .content {
-    margin-top: 40%; /* नीचे लाना mobile ke liye */
-    font-size: 1.4rem; /* छोटा text */
-    padding: 0 15px; /* left-right space */
+    margin-top: 40%; 
+    font-size: 1.4rem;
+    padding: 0 15px;
   }
 
   .content h1 {
-    font-size: 1.8rem; /* heading छोटा */
+    font-size: 1.8rem; 
   }
 
   .content p {
     font-size: 1rem;
-    max-width: 100%; /* full width me center */
+    max-width: 100%; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -681,35 +672,46 @@ hr {
   }
 }
 
-/* ✅ Extra small screens (mobile <480px) */
+
 @media (max-width: 768px) {
+  .page-1{
+    height: 77vh;
+    
+  }
   .bg-video{
-    height: 60vh;
+    height: 100vh;
   }
   .content {
    
-    margin-top: 20%;
-    font-size: 1.2rem;
+    margin-top: 40%;
+    /* font-size: 80px; */
   }
 
   .content h1 {
-   
-    font-size: 1.5rem;
+    color: black;
+   margin-top: 40%;
+    font-size: 2.5rem;
   }
 
   .content p {
-    font-size: 1rem;
+    font-weight: 700;
+     margin-top: 49%;
+    font-size: 2rem;
+    color: black;
   }
 
   .content button {
-    font-size: 13px;
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
     padding: 8px 15px;
   }
 }
 @media (max-width: 768px) {
   .page-3 {
     flex-direction: column;
-    min-height: 62vh;
+  
+    min-height: 90vh;
     background: url('imgvideo/logo.jpg') center/cover no-repeat; 
     position: relative;
   }
@@ -894,7 +896,7 @@ hr {
 }
 @media (max-width: 768px) {
   .page-4{
-    height: 190vh;
+    height: 180vh;
   }
   .page-4 h1 {
     font-size: 36px;
@@ -904,6 +906,8 @@ hr {
   .container {
     flex-direction: column;
     align-items: center;
+    margin-left: 0.5%;
+    
   }
 
   .container .card {
@@ -932,7 +936,7 @@ hr {
 
   .section img {
     height: 320px;
-    width: 300px;
+    width: 348px;
   }
 
   .section p {
@@ -940,9 +944,6 @@ hr {
   }
 }
 @media (max-width: 768px) {
-  .timeline-section{
-    height: 160vh;
-  }
   .timeline {
     flex-direction: column;
     align-items: flex-start;
