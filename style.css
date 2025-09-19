@@ -748,7 +748,7 @@ hr {
     font-size: 13px;
   }
 }
-.page-2 {
+/* .page-2 {
   height: 90vh;
   background: #084452;
   color: white;
@@ -831,9 +831,9 @@ hr {
 .card:hover .overlay p.details {
   display: block;
 }
-
+ */
 /* ---------------- Responsive ---------------- */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .page-2 {
     flex-direction: column; 
     height: auto; 
@@ -895,7 +895,7 @@ hr {
 .card:hover .overlay p.details {
   display: block;
 }
-} */
+}
 @media (max-width: 768px) {
   .page-4{
     height: 180vh;
